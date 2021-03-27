@@ -667,6 +667,8 @@ p.text-secondary{
 	overflow: hidden;}
 
 .portfolio-single img{
+	height: 300px;
+	width: 400px;
 	transition: transform .5s ease;
 
 }
