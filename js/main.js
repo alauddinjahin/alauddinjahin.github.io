@@ -71,71 +71,73 @@ $(document).ready(function(){
   });
 
    // for counterup
-			$('.counter').counterUp({
-		    delay: 10,
-		    time: 1000
-		    });
+	$('.counter').counterUp({
+	delay: 10,
+	time: 1000
+	});
 
     // for typing
-		var typed = new Typed(".type", {
-	    strings: [
-	     "Responsive Website Design",
-	     "Designing UI/UX",
-	     "Landing Page",
-	     "PSD to HTML",
-	     "PSD to Bootstrap4",
-	     "Wordpress",
-	     "PHP & Laravel",
-	     "Angular 8,9 & Angular Material",
-	     "Photo & Video Editing",
-	    ],
-	     typeSpeed: 50,
-	     backSpeed: 50,
-	     loop: true
-	     });
+		new Typed(".typed", {
+			strings: [
+			"Responsive Website Design",
+			"Landing Page",
+			"PSD to HTML",
+			"PSD to Bootstrap4",
+			"Wordpress",
+			"PHP & Laravel",
+			"Vue 2,3",
+			"React & React Native",
+			"Angular 8,9 & Angular Material",
+			"Photo & Video Editing",
+			],
+			typeSpeed: 50,
+			backSpeed: 50,
+			loop: true
+		});
 
-		 // for typing
-		var typed = new Typed(".type1", {
-	    strings: [
-	     "Responsive Website Design",
-	     "Designing UI/UX",
-	     "Landing Page",
-	     "PSD to HTML",
-	     "PSD to Bootstrap4",
-	     "Wordpress",
-	     "PHP & Laravel",
-	     "Angular 8,9 & Angular Material",
-	     "Photo & Video Editing",
-	    ],
-	     typeSpeed: 50,
-	     backSpeed: 50,
-	     loop: true
-	     });
-    
 
-		 // for typing
-		var typed2 = new Typed('#typed2', {
-	    strings: [
-	     "Responsive Website Design",
-	     "Designing UI/UX",
-	     "Landing Page",
-	     "PSD to HTML",
-	     "PSD to Bootstrap4",
-	     "Wordpress",
-	     "PHP & Laravel",
-	     "Angular 8,9 & Angular Material",
-	     "Photo & Video Editing",
-	     ],
-	    typeSpeed: 0,
-	    backSpeed: 0,
-	    fadeOut: true,
-	    loop: false
-	  });
+		new Typed(".typed1", {
+			strings: [
+			"Responsive Website Design",
+			"Landing Page",
+			"PSD to HTML",
+			"PSD to Bootstrap4",
+			"Wordpress",
+			"PHP & Laravel",
+			"Vue 2,3",
+			"React & React Native",
+			"Angular 8,9 & Angular Material",
+			"Photo & Video Editing",
+			],
+			typeSpeed: 50,
+			backSpeed: 50,
+			loop: true
+		});
+
+
+		new Typed(".typed3", {
+			strings: [
+			"Responsive Website Design",
+			"Landing Page",
+			"PSD to HTML",
+			"PSD to Bootstrap4",
+			"Wordpress",
+			"PHP & Laravel",
+			"Vue 2,3",
+			"React & React Native",
+			"Angular 8,9 & Angular Material",
+			"Photo & Video Editing",
+			],
+			typeSpeed: 50,
+			backSpeed: 50,
+			loop: true
+		});
+
 
        // for aos animation
 		AOS.init({
       	duration: 2500
-      });
+      	});
          
 
 		//$(".overlay").hover(function(){
